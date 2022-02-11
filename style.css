@@ -291,6 +291,7 @@ section #hero3 .avis {
   position: relative;
   border-radius: 10px;
   min-height: 300px;
+  background-color: #fff;
 }
 
 section #hero3 .avis .photo {
@@ -348,6 +349,7 @@ section #hero3 #hero3-mobile {
 section #hero3 #hero3-mobile .avis {
   min-height: 100%;
   width: 95%;
+  background-color: #fff;
 }
 
 section #hero3 #hero3-mobile .swiper {
