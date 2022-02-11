@@ -10,22 +10,17 @@
 body {
   position: relative;
   overflow-x: hidden;
+   background-image: url('images/bg-tablet-pattern.svg'),
+    url('images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: top -100px right -100px,
+    bottom left -100px
 }
 
 #margin-top {
   height: 3em;
 }
 
-#topleftbg {
-  background-image: url("images/bg-tablet-pattern.svg");
-  position: absolute;
-  top: -100px;
-  right: -300px;
-  height: 1000px;
-  width: 1000px;
-  z-index: -1;
-  background-repeat: no-repeat;
-}
 
 .mobile-menu {
   position: absolute;
@@ -84,7 +79,7 @@ body {
 
 header {
   width: 80%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 0 auto;  
 }
 
 header #nav {
@@ -591,7 +586,8 @@ footer .c button:hover {
         grid-template-rows: auto auto;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas: "hero1-2" "hero1-1";
+        grid-template-areas: "hero1-2"
+ "hero1-1";
   }
   section #hero1 #hero1-1 {
     text-align: center;
